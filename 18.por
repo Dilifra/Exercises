@@ -4,7 +4,8 @@
 */
 programa
 {
-	real vPro,p,pVenda,vp
+	
+real vPro,p,pVenda,vp
 	funcao inicio()
 	{
 		escreva("Digite o valor do produto:")
@@ -12,20 +13,10 @@ programa
 		escreva("Digite a porcentagem de aumento:")
 		leia(p)
 		
-		vp=vPro*50/100
+		vp
+=vPro*50/100
 		pVenda=vPro+vp
 
 		escreva("O preço do produto é:",pVenda)
 	}
 }
-/* $$$ Portugol Studio $$$ 
- * 
- * Esta seção do arquivo guarda informações do Portugol Studio.
- * Você pode apagá-la se estiver utilizando outro editor.
- * 
- * @POSICAO-CURSOR = 493; 
- * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = ;
- * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
- * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
- */
